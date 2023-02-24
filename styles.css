@@ -7,8 +7,8 @@ body {
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    background-image: url("./Background-Image-1.jpg");
-    background-size: cover;
+    background-image: url("./Cartoon-Background.jpg");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -30,25 +30,30 @@ body {
     flex: 1;
     display: flex;
     justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
+
 
 .container__slotsElement {
     margin: 1em;
     text-transform: uppercase;
 }
 
+
 .container__header {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
+
 
 .lettersGuessed__element {
     margin: 1em;
     text-transform: uppercase;
 }
 
+
 .container__lettersGuessedHeader {
     margin: 0;
     flex: 0;
     padding: 0;
 }
+
